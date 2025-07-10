@@ -1,0 +1,148 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #070724;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1e1f3f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d0d6f9;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* Main Container */
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Planet Image */
+main img {
+  width: 250px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Tabs */
+.tabs {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  background-color: #2d2e5e;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: #3f40a0;
+}
+
+.tab-btn.active {
+  background-color: #6e70ff;
+  border: 2px solid white;
+}
+#planet-video {
+  display: block;
+  margin: 0 auto;
+  /* Optional: make it responsive on small screens */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tab Content */
+.tab-content {
+  margin-top: 1rem;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+/* Planet Details Box */
+.details {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.details p {
+  background-color: #1f1f4c;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.details p strong {
+  display: block;
+  color: #888dfc;
+  font-size: 12px;
+  margin-bottom: 5px;
+}#planet-video {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  display: block;
+  margin: 1rem auto;
+  max-width: 85%;
+  height: auto;
+}
+#planet-video.visible {
+  opacity: 1;
+}
+
+footer {
+  background-color: #1e1f3f;
+  padding: 15px;
+  text-align: center;
+  color: #d0d6f9;
+  font-size: 14px;
+  margin-top: 2rem;
+}

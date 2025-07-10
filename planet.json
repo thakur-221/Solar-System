@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Mercury",
+    "overview": "Mercury is the smallest planet and closest to the Sun, with a barren, rocky surface.",
+    "structure": "Mercury has a large metallic core, making up about 85% of the planet's radius.",
+    "geology": "Its surface is covered with craters, old lava plains, and rocky ridges.",
+    "rotation": "58.6 DAYS",
+    "revolution": "88 DAYS",
+    "radius": "2,439.7 KM",
+    "distance": "57.91 MILLION KM", 
+    "temperature": "167°C",
+    "video": "Mercury.mp4"
+  },
+  {
+    "name": "Venus",
+    "overview": "Venus is the second planet from the Sun, known for its thick, toxic atmosphere and bright appearance.",
+    "structure": "It has a rocky surface and a hot, molten metal core beneath a dense atmosphere.",
+    "geology": "Venus has vast volcanic plains, mountain ranges, and surface deformations.",
+    "rotation": "243 DAYS",
+    "revolution": "225 DAYS",
+    "radius": "6,051.8 KM",
+    "distance": "108.21 MILLION KM",
+    "temperature": "464°C",
+    "video": "Venus.mp4"
+  },
+  {
+    "name": "Earth",
+    "overview": "Earth is our home and the only planet known to support life, with a balanced climate and diverse ecosystems.",
+    "structure": "The Earth is composed of a solid inner core, liquid outer core, mantle, and crust.",
+    "geology": "Earth's surface features mountains, oceans, forests, deserts, and tectonic activity.",
+    "rotation": "0.99 DAYS",
+    "revolution": "365.26 DAYS",
+    "radius": "6,371 KM",
+    "distance": "149.6 MILLION KM",
+    "temperature": "16°C",
+    "video": "Earth.mp4"
+  },
+  {
+    "name": "Mars",
+    "overview": "Mars is known as the Red Planet due to its reddish appearance from iron oxide dust.",
+    "structure": "Mars has a rocky core, a thin mantle, and a surface covered in volcanic and tectonic features.",
+    "geology": "It hosts Olympus Mons, the largest volcano, and Valles Marineris, a vast canyon system.",
+    "rotation": "1.03 DAYS",
+    "revolution": "687 DAYS",
+    "radius": "3,389.5 KM",
+    "distance": "227.92 MILLION KM",
+    "temperature": "-63°C",
+    "video": "Mars.mp4"
+  },
+  {
+    "name": "Jupiter",
+    "overview": "Jupiter is the largest planet in the solar system, known for its Great Red Spot and many moons.",
+    "structure": "It is a gas giant with a possible solid core surrounded by metallic hydrogen and thick clouds.",
+    "geology": "Although it lacks a solid surface, it features massive storms and colorful cloud bands.",
+    "rotation": "0.41 DAYS",
+    "revolution": "4,333 DAYS",
+    "radius": "69,911 KM",
+    "distance": "778.57 MILLION KM",
+    "temperature": "-145°C",
+    "video": "Jupiter.mp4"
+  },
+  {
+    "name": "Saturn",
+    "overview": "Saturn is famous for its stunning ring system, composed of ice and rock particles.",
+    "structure": "A gas giant with a small core, it is mostly hydrogen and helium in fluid and gaseous form.",
+    "geology": "Saturn has no solid ground but features extreme wind speeds and ring-related phenomena.",
+    "rotation": "0.45 DAYS",
+    "revolution": "10,759 DAYS",
+    "radius": "58,232 KM",
+    "distance": "1.43 BILLION KM",
+    "temperature": "-178°C",
+    "video": "Saturn.mp4"
+  },
+  {
+    "name": "Uranus",
+    "overview": "Uranus is an ice giant with a tilted axis, making it roll around the Sun on its side.",
+    "structure": "It has an icy mantle surrounding a rocky core, with a hydrogen-rich atmosphere.",
+    "geology": "Cloud bands, storms, and faint rings mark the planet's upper atmosphere and icy clouds.",
+    "rotation": "0.72 DAYS",
+    "revolution": "30,687 DAYS",
+    "radius": "25,362 KM",
+    "distance": "2.87 BILLION KM",
+    "temperature": "-224°C",
+    "video": "Uranus.mp4"
+  },
+  {
+    "name": "Neptune",
+    "overview": "Neptune is the most distant planet, known for its deep blue color and fast winds.",
+    "structure": "It has a rocky core surrounded by icy water, ammonia, and methane layers.",
+    "geology": "Neptune's atmosphere shows dark storms, high-speed winds, and faint ring arcs.",
+    "rotation": "0.67 DAYS",
+    "revolution": "60,190 DAYS",
+    "radius": "24,622 KM",
+    "distance": "4.50 BILLION KM",
+    "temperature": "-214°C",
+    "video": "Neptune.mp4"
+  }
+]
